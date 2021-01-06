@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+ margin-top: 0;
+ margin-bottom: 0rem;
+}
+h4{
+   margin-top: 0;
+   margin-bottom: 0rem;
+   font-weight: bold;
+ }
+ li{
+     list-style: none;
+ }
+ .navibar{
+     margin-bottom: 30px;
+ }
+
+ .navibar{
+    z-index: 100;
+}
+
+
+
+/*-----------------------------------------*/
+
+
+
+#navbaar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background-color:#0053e2;
+  position: relative;
+  z-index: 20;
+}
+
+.catemobile{
+   display: flex;
+   display: none;
+   width: 100%;
+   height: 100%;
+}
+.logocategory{
+   margin-left: 2%;
+   color:white;
+   font-size: 13px;
+   font-weight: bold;
+}
+.burger{
+   cursor: pointer;
+   display: block;
+}
+
+.burger div{
+   width: 25px;
+   height: 2px;
+   background-color:white;
+   margin: 4px;
+   transition: all 0.3s ease;
+}
+
+
+
+.loginlink{
+    min-height: 5vh;
+    max-height: 5vh;
+}
+
+.links-items{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.link{
+    list-style: none;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+}
+.links-items a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.5s ease-in;
+    font-size: 13px;    
+ }
+
+ .links-items a:hover{
+     background-color: white; 
+ 
+ }
+ 
+ .links-items a:hover {
+ 
+     color: black;
+ }
+
+.dropdown-menu a{
+	color:black;
+	font-weight: normal;
+}
+.dropdown-menu a:hover {
+
+    background-color: rgba(228, 228, 228, 0.842);
+    color: rgb(0, 162, 255);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover .dropdown-menu{
+    display: block;
+}
+
+
+.dropdown-item:hover .droplink{
+  background-color: #ffffff;
+    color:black; 
+}
+
+
+
+.color01{
+    background-color: rgb(255, 25, 0);
+}
+.color02{
+    background-color: seagreen;
+}
+.color03{
+    background-color: rgb(25, 0, 255);
+}
+.color04{
+    background-color: rgb(209, 145, 145);
+}
+
+
+@media screen and (max-width:768px){
+   
+
+    .CATE{
+        display: none;
+    }
+   .CATEFRAME{
+    width: 100%;
+    background-color: #ffffff00;
+    padding-bottom: 5px;
+    border-radius: 0%;
+    }
+    .CATEFRAME a{
+        
+    color: #ddd;
+    font-weight: bold;
+    }
+    .CATEFRAME a:hover{
+        
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.453);
+        
+        }
+    .dividercolor{
+        border-top: 1px solid #ddd;
+        margin: 3px
+    }
+
+   .catemobile{
+       display: flex;
+       align-items: center;
+       position: relative;
+       margin-bottom: -3px;
+   }
+   .links-items{
+       width: 90%;
+   }
+   .links-items a{
+    font-size: 13px;
+    }
+   
+   body{
+       overflow-x: hidden;
+   }
+   .nav-links{
+       position: absolute;
+       z-index: 18;
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-top: 10%;
+       left: 0px;
+       height: 84.5vh;
+       top: 11.5vh;
+       background-color: #b88b1af8;
+    background-color: 	rgb(68, 68, 68);
+       display: flex;
+       flex-direction: column;
+       align-items: right;
+       width: 70%;
+       transform: translateX(-100%);
+       transition: transform 0.5s ease-in;
+
+   }
+   .logo{
+       font-size: 18px;
+   }
+   .nav-links li{
+       opacity: 0;
+   }
+   
+}
+
+
+.nav-active{
+   transform: translateX(0%);
+
+}
+@keyframes navLinkFade{
+
+   from{
+       opacity: 0;
+       transform: translateX(-50px);
+
+   }
+   to{
+       opacity: 1;
+       transform: translateX(0px);
+   }
+}
+
+.toggle .line1{
+   transform: rotate(-45deg) translate(-3px, 5px);
+}
+.toggle .line2{
+   opacity: 0;
+}
+.toggle .line3{
+   transform: rotate(45deg) translate(-3px, -5px);
+}

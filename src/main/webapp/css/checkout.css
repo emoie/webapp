@@ -1,0 +1,128 @@
+
+.billingdetails{
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+.billingaddress *{
+    font-size: 13px;
+}
+.cartdetails *{
+    font-size: 13px;
+}
+
+.titlecheckout{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cartdetails{
+    background-color: rgb(252, 134, 0);
+    height: 200px;
+}
+
+.checkoutaddress{
+    min-height: 50px;
+}
+.cartdetails{
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+.remopaddingfd{
+    margin-bottom: 0%;
+}
+.cheoutitemprice{
+    text-align: end;
+}
+.cheoutproductname{
+    max-height: 16px;
+    overflow: hidden;
+}
+.maxhightfordec{
+    max-height: 16px;
+    overflow: hidden;
+}
+.paymethod{
+    margin-bottom: 4%;
+}
+.paymentdetails *{
+    font-size: 13px;
+}
+.paymentdetails{
+    background-color: white;
+    height: auto;
+    padding: 3%;
+}
+.payment{
+    padding: 3%;
+    padding-top: 0%;
+}
+.titlecheckout{
+    font-size: 15px;
+    font-weight: bold;
+}
+.chechout{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cartdetails{
+    align-items: start;
+}
+.cartsummery32{
+    background-color: white;
+    height: auto;
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+
+}
+.sixetxt{
+    font-size: 18px;
+}
+#totalprice{
+    font-weight: bold;
+}
+
+
+.orderplaced{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.orderplacedgif{
+    width: 60%;
+    height: auto;
+}
+.messageorder{
+    font-weight: bold;
+    font-size: 15px;
+}
+.ordernumber{
+    margin-top: 6%;
+}
+
+.contiuneshop{
+    font-size: 13px;
+}
+
+
+@media screen and (max-width:768px){
+
+    .billingdetails{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .paymentdetails{
+        padding-left: 6%;
+        padding-right: 6%;
+
+    }
+}

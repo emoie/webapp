@@ -1,0 +1,261 @@
+.cartitem{
+    padding: 0%;
+    padding-right: 2%;
+    min-height: 70vh;
+}
+.cartsummery{
+    padding: 0%;
+}
+.citempanel{
+   height: 16vh;
+   width: 100%;
+   display: flex;
+   background-color: white;
+   margin-bottom: 2%;
+
+}
+
+.citempic{
+    height: 100%;
+    position: relative;
+    padding-left: 2%;
+    background-color: white;
+}
+
+.itemimg{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.citemdec{
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2.5%;  
+    
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ailnecenter3{
+    width: 100%;
+    height: 100%;
+    display: unset;
+}
+.dec{
+    width: 100%;
+    max-height: 64%;
+    margin-top: 3%;
+    overflow: hidden;
+}
+.prodec{
+    font-size: 13px;
+    position: relative;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+}
+.brandcart{
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 1%;
+
+}
+.probrand{
+    
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: blue;
+
+}
+
+
+
+.down{
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    padding-right: 2%;
+}
+
+.itempricecart{
+    font-weight: bold;
+    color: red;
+}
+.citemprice{
+    padding: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 14px;
+}
+.citemqnt{
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 50%;
+    margin-right: 5%;
+}
+.iquentity{
+    width: 100%;
+    max-height: 80%;
+    display: flex;
+    padding: 0%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qnttext{
+    text-align: center;
+    outline: none;font-size: 10px;
+    font-weight: bolder;
+}
+
+.iquen{
+    background-color: hsl(43, 100%, 59%);
+    min-width: 25%;
+    border: none;
+    margin: 0%;
+    font-size: 11px;
+    font-weight: bolder;
+}
+.bi{
+    color: white;
+}
+
+
+
+.emptycart{
+    margin-bottom: 5%;
+}
+
+.citemdel{
+    height: 100%;    
+    padding: 0%;
+    padding-right: 3%;
+    background-color: #ffb700;
+    margin-right: -3%;
+
+
+}
+    
+.citemdel:hover{
+    background-color: #ffb700;
+}
+.divider1{
+    border-top: 1px solid #ffb700;
+    margin: 0.3rem 0;
+}
+.headingsummery{
+    font-size: 19px;
+    font-weight: bold;
+}
+.right{
+    float: right;
+}
+.subtotal{
+    margin-left: 3%;
+    margin-right: 3%; 
+    font-size: 14px;   
+}
+.subtotal1{
+    font-size: 15px;   
+}
+.checkoutbtn{
+    font-size: 13px;
+}
+.summery{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 6%;
+    padding-bottom: 5%;
+}
+
+/*---------Mobile View--------------*/
+@media screen and (max-width:768px){
+
+    .navibar{
+        margin-bottom: 20px;
+    }
+    .citemdel{
+        padding: 1%;
+        margin-right: 1.5%;
+    }
+    .bi{
+        width: 1em;
+        height: 1em;
+    }
+    .citempic{
+        padding: 0%;
+        padding-left: 2%;
+        background-color: white;
+    }
+    .citemdec{
+        padding: 2%;
+        padding-right: 0%;
+        position: relative;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .prodec{
+        font-size: 10px;
+        padding-right: 0%;
+        
+    }
+    .probrand{
+        font-size: 9px;
+    }
+    .itempricecart{
+        font-size: 12px;
+    }
+    .down{
+        display: unset;
+        padding: 1%;
+    }
+    .citemprice{
+        margin-bottom: 1%;
+    }
+    .btnsd{
+        padding: 0%;
+        font-size: 13px;
+    }
+    
+    .cartitem{
+        padding: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .citempanel{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        margin-bottom: 2%;
+     
+     }
+
+    .contiuneshop{
+        font-size: 10px;
+    }
+    .emptycart{
+        margin-bottom: 15%;
+    }
+    
+    .headingsummery{
+        font-size: 16px;
+    }
+    .subtotal{
+        font-size: 13px;   
+    }
+    .subtotal1{
+        font-size: 12px;   
+    }
+    .checkoutbtn{
+        font-size: 10px;
+    }
+}

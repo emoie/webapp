@@ -1,0 +1,195 @@
+
+.currSign:before { 
+    content: 'Rs. '; 
+} 
+
+.was-validated .form-control:valid, .form-control.is-valid {
+
+	background-image: none;
+}
+.unselectabel{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.invisibel{
+    display: none;
+}
+
+
+
+.center{
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+     
+}
+.justifycenter{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+
+.navbarbackgroundcolor{
+    background-color: white;
+    z-index: 1;
+}
+
+ #nav-companylogo{
+
+    padding: 0px;
+
+
+}
+#nav-searchbar{
+
+    padding: 0px;
+
+}
+#nav-cart{
+
+    padding: 0px;
+    
+}
+
+.comnylog{
+    max-height: 10vh;
+    min-height: 10vh;    
+}
+
+.logoimg{
+    width: 48%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.searchbar{
+    max-height: 10vh;
+    min-height: 10vh;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+
+#dropdownMenuButton{
+    
+    background-color:white;
+    color: rgb(109, 109, 109);
+    outline: none;
+    border: 1px #ced4da solid;
+    box-shadow: none;
+    margin-right: 2px;
+
+}
+.dropdown-item{
+
+    height: 26px;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-right: 15px;
+}
+.dropdown-menu a:hover {
+
+    background-color: rgba(228, 228, 228, 0.842);
+    color: rgb(0, 162, 255);
+}
+#searchtext{
+    outline: none;
+    box-shadow: none;
+}
+#searchbtn{
+
+    background-color: #0053e2;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: 1px #0053e2 solid;
+    box-shadow: none;
+    margin-left: 0.4%;
+    font-weight: bold;
+    
+}
+
+
+.cartlogo{
+    max-height: 10vh;
+    min-height: 10vh;    
+}
+
+.cart{
+    height: 100%;
+    width: 12%;
+}
+
+
+.fontsize{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+    .fontsize {
+        font-weight: bolder;
+        font-size: 13px;
+    }
+    #searchbtn{
+        font-size: 11px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .topspace{
+        padding-top: 2%;
+    }
+    .searchbar{
+        margin-top: 1.5%;
+        margin-bottom: -1.5%;
+    }
+    #searchtext{
+        max-height: 30px;
+        font-size: 12px;
+    }
+    .navbarbackgroundcolor{
+        background-color: white;
+        position: relative;
+        z-index: 19;
+    }
+    .cart{
+        height: 100%;
+        width: 46%;
+        margin-top: 4%;
+        margin-bottom: -4%;
+    }
+    .logoimg{
+        width: 70%;
+    }
+
+    .comnylog, .searchbar, .cartlogo{
+        max-height: 7vh;
+        min-height: 7vh;        
+    }
+
+    #searchbtn{
+        margin-left: 0.6%; 
+    }
+
+ }

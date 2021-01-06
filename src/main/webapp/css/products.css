@@ -1,0 +1,85 @@
+.tabnav a{
+    
+    font-size: 13px;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.addpro label{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.addpro input{
+    font-size: 13px;
+}
+.addpro select{
+    font-size: 13px;
+}
+.addpro .btn{
+    font-size: 13px;
+}
+.imgpreview img{
+
+    max-width: 12vh;
+    max-height: 12vh;
+}
+.choosefile{
+    border: none;
+}
+
+
+
+/*-----Product Infor-----------*/
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: hsla(43, 100%, 59%, 0.2);
+
+} 
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.table{
+    font-size: 13px;
+    overflow-y: scroll;
+}
+.table tbody,th{
+    font-weight: normal;
+}
+
+/*-----Product Infor-----------*/
+
+input:focus{
+    border: 1px;
+}
+
+.table input{
+    background-color: transparent;
+    border: none;   
+}
+.spansize{
+    font-size: 12px;
+    color: red;
+}
+.update{
+    font-size: 13px;
+}
+.redytoship{
+    font-size: 11px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+
+table #address3{
+    max-width: 300px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+table .verticalalign{
+    vertical-align: middle;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+ 
+ 
+<web-app id="WebApp_ID">
+	<display-name>sevenstar</display-name>
+
+	<context-param>
+		<param-name>uploadpath</param-name>
+		<param-value>C:\Users\emoie\eclipse-workspace\sevenstar\src\main\webapp\imagers\</param-value>
+	</context-param>
+	
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.LogoutServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>signup</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.SignupServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>deleteitemcart</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.DeleteCartItemServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>addtocartbuy</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.AddtocartServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>updatecartitemqnt</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.UpdateCartItemServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ordercheckout</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.OrderCheckoutServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>updateuserdetailsw</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.ChangeUserDetailsServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>userupdateaddress</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.UserUpdateAddressServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>updatepassq</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.UpdatepassServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>sortproduts</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.SortServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>readytoships</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.ReadytoShipServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>orderinfor</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.OrderidServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>shiporders</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.ShipServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>addstaffs</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.AddStaffServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>staffid</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.StaffidServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>updatestaf</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.UpdateStaffServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>deletestaffs</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.DeleteStaffServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>addproducts</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.AddProductsServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>catee</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.CateServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>imggg</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.ImageServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>productid</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.ProductidServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>deleteprodu</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.DeleteProductServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>updateproid</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.UpdateProIDServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>updateproducta</servlet-name>
+		<servlet-class>com.supermarket.sevenstar.UpdateproductServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>updateproducta</servlet-name>
+		<url-pattern>/updateproducts</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>updateproid</servlet-name>
+		<url-pattern>/updateproductid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>deleteprodu</servlet-name>
+		<url-pattern>/deleteprodcts</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>productid</servlet-name>
+		<url-pattern>/deleteproductid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>imggg</servlet-name>
+		<url-pattern>/img</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>catee</servlet-name>
+		<url-pattern>/cate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>addproducts</servlet-name>
+		<url-pattern>/additem</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>deletestaffs</servlet-name>
+		<url-pattern>/deletestaff</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>updatestaf</servlet-name>
+		<url-pattern>/updatestaff</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>staffid</servlet-name>
+		<url-pattern>/userid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>addstaffs</servlet-name>
+		<url-pattern>/addstaff</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>shiporders</servlet-name>
+		<url-pattern>/ship</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>orderinfor</servlet-name>
+		<url-pattern>/orderid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>readytoships</servlet-name>
+		<url-pattern>/readytoship</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>sortproduts</servlet-name>
+		<url-pattern>/sort</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>updatepassq</servlet-name>
+		<url-pattern>/updatepass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>userupdateaddress</servlet-name>
+		<url-pattern>/updateaddress</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>updateuserdetailsw</servlet-name>
+		<url-pattern>/updateuserdetails</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet-mapping>
+		<servlet-name>ordercheckout</servlet-name>
+		<url-pattern>/ordercheckout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>updatecartitemqnt</servlet-name>
+		<url-pattern>/updetecartitem</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>addtocartbuy</servlet-name>
+		<url-pattern>/addtocart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>deleteitemcart</servlet-name>
+		<url-pattern>/deletecartitem</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>signup</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/signin</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
+
+

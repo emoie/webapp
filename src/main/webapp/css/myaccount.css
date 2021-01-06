@@ -1,0 +1,316 @@
+.menunaviuser{
+    padding-left: 5%;
+}
+
+.usermenu{
+    height: auto;
+    background-color: white;
+    border-top-left-radius: 20px;
+    padding-bottom: 3%;
+}
+.userdetailes{
+    height: auto;
+    padding-bottom: 3%;
+
+}
+
+.useraccoutdashboard{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.usernameacco{
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: hsl(43, 100%, 59%);
+    padding: 6%;
+    padding-bottom: 3%;
+    border-top-left-radius: 20px;
+    margin-bottom: 5%;
+}
+.svgcolor{
+    color: #000;
+    margin-right: 6%;
+    margin-left: 3%;
+}
+
+.usermenu ul{
+    padding: 0%;
+    text-decoration: none;
+}
+.usermenu a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.maincate{
+
+    width: 100%;
+    margin-top: 2.5%;
+    margin-bottom: -2%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.usermenuitem{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.usermenuitem:hover{
+    background-color: rgb(68, 68, 68);
+    background: linear-gradient(to right,  #0053e2 20%, #0053e243 80%);
+
+
+
+    cursor: pointer;
+}
+.select-user .usermenuitem:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.usermenu label{
+    color: rgb(223, 223, 223);
+    height: 100%;
+}
+
+
+
+
+
+.userdetails *{
+    font-size: 12px;
+}
+.accountdetailstile{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: hsl(43, 100%, 59%);
+    padding: 1.6%;
+    padding-bottom: 0.5%;
+    border-radius: unset;
+    margin-bottom: 2%;
+}
+
+.colom01{
+    width: 100%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.colom012{
+    width: 100%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.colom02{
+    width: 100%;
+}
+.colom03{
+    width: 100%;
+}
+.updatebntuserdetails{
+    font-size: 10px;
+}
+.spansize2{
+    font-weight: bold;
+    color: red;
+}
+.databasemg{
+    padding: 2%;
+}
+
+
+#addressuserview{
+    min-height: 20vh;
+}
+
+
+
+
+
+
+.orderitems{
+    height: auto;
+    padding: 0%;
+}
+.ordertimeandtotal{
+    display: flex;
+    padding: 0.3%;
+}
+.orderiditems{
+    height: 100%;
+}
+.ordercode{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0%;
+}
+.orderplacedtime{
+    font-size: 12px;
+    margin: 0%;    
+}
+.orderiditems{
+    height: auto;
+    padding: 0%;
+}
+.totaloforder{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.ordertotal{
+    margin: 0%;
+    font-size: 15px;
+    font-weight: bold;
+    height: 100%;
+}
+
+.orderitem{
+    height: 80px;
+    margin-top: 1%;
+    display: flex;
+}
+.itemorder{
+    height: 100%;
+    padding: 0%;
+}
+.itemorderimg{
+    width: 70px;
+    height: 70px;
+    background-color: hsl(43, 100%, 59%);
+}
+.decitemorder{
+    height: 100%;
+}
+.qntorderitm{
+    height: 100%;
+}
+.orderitemstatus{
+    height: 100%;
+}
+.itemstatus{
+    padding: 10%;
+    background-color: hsla(43, 100%, 59%, 0.33);
+    border-radius: 10%;
+}
+
+.statusimg{
+    width: 70px;
+    height: 70px;
+}
+.itemqnt{
+    font-size: 13px;
+}
+.itemstatus{
+    font-size: 13px;
+}
+
+
+
+/*-------NO ITEM-------*/
+.noitem{
+    height: 100px;
+}
+
+
+
+/*---------Mobile View--------------*/
+@media screen and (max-width:768px){
+
+    .useraccoutdashboard label,p,span,div *{
+        font-size: 13px;
+    }
+    .accountdetailstile span{
+        font-size: 14px;
+    }
+    .accountdetailstile{
+        margin-bottom: 1%;
+    }
+
+    .menunaviuser{
+        padding: 0%;
+        margin-bottom: 5%;
+    }
+    .usermenu{
+        border-radius: 0px;
+        padding: 0%;
+        margin-bottom: -1%;
+        height: auto;
+    }
+    .usernameacco{
+        font-size: 13px;
+        background-color: hsl(43, 100%, 59%);
+        padding: 2%;
+        border-top-left-radius: 0px;
+        margin-bottom: 3%;
+    }
+    .usernameacco svg{
+        font-size: 15px;
+        margin-right: 5%;
+    }
+    .usermenu *{
+        font-size: 12px;
+    }
+    .maincate{
+        width: 100%;
+        margin: 0%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        padding-left: 10%;
+    }
+    .usermenuitem{
+        width: 100%;
+        margin: 0%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        padding-left: 15%;
+    }
+    .usermenu ul{
+        margin-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+    }
+    .accountdetailstile{
+        padding-left: 5%;
+    }
+
+    .ordertimeandtotal .ordercode{
+        font-size: 12px;
+    }
+
+    .ordertimeandtotal .orderplacedtime{
+        font-size: 11px;
+    }
+    
+    .ordertimeandtotal .ordertotal{
+        font-size: 11px;
+    }
+    .totaloforder{
+        width: 100%;
+        padding: 0%;
+    }
+    .colom01{
+        padding: 2%;
+    }
+    .orderitem{
+        padding: 0%;
+    }
+    .itemqnt,.itemstatus{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,18 @@
+.signinform{
+    margin-bottom: 20px;
+}
+.signinbox{
+    background-color: white;
+    padding-bottom: 1%;
+}
+.forgotpass{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.signinbtn{
+    background-color: #0053e2;
+}
+#errormglogin{
+	color:red;
+	font-size:13px;
+}

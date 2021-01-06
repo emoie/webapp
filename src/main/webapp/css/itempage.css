@@ -1,0 +1,299 @@
+.panel01{
+  background-color: white;
+  padding: 2%; 
+
+}
+.rootnavi{
+  background-color: rgba(255, 255, 255, 0.316);
+  margin-top: -1%;
+  margin-bottom: 1%;
+  display: flex;
+  align-items: center;
+  padding: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  
+}
+.rootnavi a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #1a9cb7;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+.rootnavi a:hover{
+  color: #00d5ff;
+}
+.rightarrowsvg{
+  vertical-align: unset;
+  color: grey;
+  
+}
+
+.rightarrow{
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.panel03{
+  background-color: white;
+}
+
+.itemimgitm{
+  padding: 2%;
+  height: 363px;
+}
+
+.itemname5{
+  height: 10vh;
+  overflow: hidden;
+}
+.title{
+color: #212121;
+font-size: 22px;
+font-weight: normal;
+word-break: break-word;
+word-wrap: break-word;
+overflow-wrap: normal;
+font-weight: bold;
+}
+.brand5{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+}
+.price5{
+  font-size: 25px;
+  font-weight: 700;
+  color: orange;
+}
+.realprice5{
+  color: #9e9e9e;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+.realitemprice{
+	text-decoration: line-through;
+}
+
+.itemitemqnt{
+  padding: 0%;
+  margin-bottom: 8%;
+}
+
+.qntbtn{
+  font-size: 18px;
+  padding: 0%;
+  height: 30px;
+  font-weight: 500;
+}
+.qnttext5{
+  text-align: center;
+  outline: none;
+  font-size: 14px;
+  margin: 0%;
+  height: 30px;
+}
+
+.addtocartbtn{
+  display: flex;
+  padding: 0%;
+}
+.itempagebtn{
+  font-size: 13px;
+  color: white;
+  background-color: orange;
+}
+.itempagebtn:hover{
+  color: white;
+  background-color: rgb(233, 151, 0);
+}
+.buynow{
+  background-color:#0053e2;
+  border: 1px #0053e2;
+}
+.buynow:hover{
+  background-color:#003ea9;
+}
+
+
+
+.panel02{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.boxvertical{
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.verticalline{
+  width: 1px;
+  height: 90%;
+  background-color: #F3F3F3;
+}
+
+.diliveryoption{
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.deliverytitle{
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+
+}
+
+.deliverydetails{
+
+  font-size: 14px;  
+  font-weight: 600;
+  color: rgb(84, 83, 83);
+  padding: 2%;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.truckcolor{
+  color: rgb(84, 83, 83);
+  font-size: 10px;
+}
+
+.cod{
+  color: rgb(84, 83, 83);
+  font-size: 12px;
+}
+
+
+
+
+.itemdeciotm{
+  margin-top: 2%;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+.productdescrition{
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  height: 12vh;
+  margin-bottom: -1%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.itemdecproduct{
+  padding-bottom: 2%;
+  padding: 3%;
+  padding-top: 1%;
+}
+
+
+@media screen and (max-width:768px){
+
+  .rootnavi{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .over{
+    overflow: hidden;
+    padding: 0px;
+    height: 20px;
+    width: auto;
+  }
+  .maxwidth{
+    max-width: 40%;
+  }
+  .maxwidthforother{
+    max-width: 30%;
+  } 
+  .rightarrow{
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+
+
+  .itemimgitm{
+    padding: 5%;
+    height: 380px;
+  }
+  .panel03{
+    margin-top: 2%;
+    height: auto;
+  }
+  .itemname5{
+    padding-left: 3%;
+    padding-right: 3%;
+    height: auto;
+    max-height: 10vh;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .brand5{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 12px;
+  }
+  .price5{
+    margin-top: -1%;
+    padding-left: 6%;
+    padding-right: 6%;      
+  }
+  .realprice5{
+    padding-left: 6%;
+    padding-right: 6%; 
+    margin-bottom: 6%; 
+  }
+  .addtocartbtn{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 3%; 
+  }
+  .panel01{
+    margin-bottom: 2%;
+  }
+
+
+  .boxvertical{
+    display: none;
+  }
+  .diliveryoption{
+    margin-bottom: 10%;
+  }
+  .truckcolor,.cod{
+    font-size: 16px;
+  }
+  .productdescrition{
+    font-size: 18px;
+    margin-bottom: -5%;
+  }
+
+  .itemdeciotm{
+    padding: 0%;
+  }
+
+  .productdescrition{
+    margin-left: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .itemdecproduct{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+
+}

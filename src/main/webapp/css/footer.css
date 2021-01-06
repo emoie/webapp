@@ -1,0 +1,108 @@
+
+.copyright {
+    background-color: 	rgb(60, 60, 60);
+    padding: 10px;  
+    text-align: center;
+    color: rgb(187, 187, 187);
+}
+.bandandpayments{
+
+    padding: 10px;
+    background-color: #e4e4e4;
+    background-color: 	rgb(68, 68, 68);
+
+
+
+}
+.payment{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px ;
+
+}
+.colorline{
+
+    height: 30px;
+    width: auto;
+    background-color:#0053e2;
+    margin-top: 30px;
+
+}
+
+
+
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+}
+
+
+@media screen and (max-width:768px){
+
+    .copyright {
+        font-size: 10px;
+    }
+    .band{
+        width:50%;
+    }
+    .bank{
+        width:90%;
+    }
+    
+
+}
+
+
+/**
+ * Demo Styles
+ */
+
+  
+
+  
+/**
+ * Demo Styles
+ */
+
+ html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+
+  
+  body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+
+  
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: auto;
+    left: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
