@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DbConfiguration {
 
 	private final static String driverClassName ="com.mysql.cj.jdbc.Driver";
-	private final static String databaseURL = "jdbc:mysql://us-cdbr-east-02.cleardb.com:3306/heroku_24b38c9f2710063";
-	private final static String databaseUsername = "bde75ebd4a2611";
-	private final static String databasePassword = "72095536";
+	private final static String databaseURL = "jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_bc38ea9570226ef";
+	private final static String databaseUsername = "ba9fa1b8f892ac";
+	private final static String databasePassword = "ee28b816";
 	
 	public static Connection getDatabaseConnection() throws ClassNotFoundException {
 		
